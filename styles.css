@@ -27,6 +27,8 @@
     height: auto;
     object-fit: cover;
     border-radius: 4px;
+    max-height: 175px;
+    max-width: 175px;
 }
 
 .colonne {
@@ -66,7 +68,6 @@ h2 {
 }
 
 .col-md-2 {
-    padding-right: 10px;
     padding-left: 0;
 }
 
@@ -86,5 +87,18 @@ h2 {
 }
 
 .col-md-4 {
+    padding: 0;
+}
+
+.vertical-card-title {
+    padding-top: 8px;
+}
+
+
+
+.vertical-card {
+    display: flex;
+    align-items: left;
+    justify-content: left;
     padding: 0;
 }
